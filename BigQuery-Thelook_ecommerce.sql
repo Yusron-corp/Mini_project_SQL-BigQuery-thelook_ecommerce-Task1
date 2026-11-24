@@ -5,6 +5,7 @@ FROM `bigquery-public-data.thelook_ecommerce.orders`;
 SELECT
 name,
 category,
+department,
 brand,
 retail_price
 FROM `bigquery-public-data.thelook_ecommerce.products`
